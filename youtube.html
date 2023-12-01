@@ -11,8 +11,15 @@
                 display: block;
             }
 
-            .video-title{
+            .video-title{   
                 width: 300px;
+            }
+
+            .video-preview{
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
             }
 
 
@@ -24,10 +31,22 @@
     </head>
 
     <body>
+
         <input class="search-bar" type="text" placeholder="Search">
-        <img class="thumbnail" src="thumbnails/dictator.webp"> 
-        <p class="video-title">North Korea's most powerful woman | DW Documentary by DW Documentary</p>
-        <p class="video-author">DW Documentary</p>
-        <p class="video-stats">1.5M views &#183; 4 days ago</p>
+
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails/dictator.webp"> 
+            <p class="video-title">North Korea's most powerful woman | DW Documentary </p>
+            <p class="video-author">DW Documentary</p>
+            <p class="video-stats">1.5M views &#183; 4 days ago</p>
+        </div>
+
+        
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp"> 
+            <p class="video-title">$1 vs $10,000,000 Job!</p>
+            <p class="video-author">MrBeast</p>
+            <p class="video-stats">84M views &#183; 5 days ago</p>
+        </div>
     </body>
 </html>
